@@ -37673,7 +37673,7 @@
     <initialresource resourcetype="Gold">600000.0000</initialresource>
     <resourcesubtype>Gold</resourcesubtype>
     <resourcepriority>50.0000</resourcepriority>
-    <carrycapacity resourcetype="Gold">6000.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">600000.0000</carrycapacity>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>GoldResource</unittype>
     <unittype>NatureClass</unittype>
@@ -37722,7 +37722,7 @@
     <initialresource resourcetype="Gold">300000.0000</initialresource>
     <resourcesubtype>Gold</resourcesubtype>
     <resourcepriority>50.0000</resourcepriority>
-    <carrycapacity resourcetype="Gold">3000.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">300000.0000</carrycapacity>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>GoldResource</unittype>
     <unittype>NatureClass</unittype>
@@ -37771,7 +37771,7 @@
     <initialresource resourcetype="Gold">150000.0000</initialresource>
     <resourcesubtype>Gold</resourcesubtype>
     <resourcepriority>50.0000</resourcepriority>
-    <carrycapacity resourcetype="Gold">1500.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">150000.0000</carrycapacity>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>GoldResource</unittype>
     <unittype>NatureClass</unittype>
@@ -37818,10 +37818,10 @@
     <movementtype>land</movementtype>
     <weightclass>255</weightclass>
     <los>18.0000</los>
-    <initialresource resourcetype="Gold">600000.0000</initialresource>
+    <initialresource resourcetype="Gold">750000.0000</initialresource>
     <resourcesubtype>Gold</resourcesubtype>
     <resourcepriority>50.0000</resourcepriority>
-    <carrycapacity resourcetype="Gold">7500.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">750000.0000</carrycapacity>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>GoldResource</unittype>
     <unittype>NatureClass</unittype>
@@ -37868,7 +37868,7 @@
     <movementtype>land</movementtype>
     <weightclass>255</weightclass>
     <los>18.0000</los>
-    <initialresource resourcetype="Gold">3000.0000</initialresource>
+    <initialresource resourcetype="Gold">300000.0000</initialresource>
     <resourcesubtype>Gold</resourcesubtype>
     <resourcepriority>50.0000</resourcepriority>
     <carrycapacity resourcetype="Gold">300000.0000</carrycapacity>
@@ -37922,7 +37922,7 @@
     <initialresource resourcetype="Gold">150000.0000</initialresource>
     <resourcesubtype>Gold</resourcesubtype>
     <resourcepriority>50.0000</resourcepriority>
-    <carrycapacity resourcetype="Gold">1500.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">150000.0000</carrycapacity>
     <unittype>LogicalTypeMinimapFilterEconomic</unittype>
     <unittype>GoldResource</unittype>
     <unittype>NatureClass</unittype>
