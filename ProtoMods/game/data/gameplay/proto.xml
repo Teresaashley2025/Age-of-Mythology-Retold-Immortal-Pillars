@@ -28996,15 +28996,15 @@
     <autoattackrange>16.0000</autoattackrange>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <initialhitpoints>250.0000</initialhitpoints>
-    <maxhitpoints>250.0000</maxhitpoints>
-    <unitregen>1.5000</unitregen>
+    <initialhitpoints>15000000000.0000</initialhitpoints>
+    <maxhitpoints>15000000000.0000</maxhitpoints>
+    <unitregen>1500.0000</unitregen>
     <weightclass>6</weightclass>
     <maxcontained>1.0000</maxcontained>
-    <populationcount>2</populationcount>
-    <maxvelocity>4.0000</maxvelocity>
+    <populationcount>0</populationcount>
+    <maxvelocity>8.0000</maxvelocity>
     <rechargetime>20</rechargetime>
-    <los>20.0000</los>
+    <los>40.0000</los>
     <sharedselectionunittypes>
       <unittype>LogicalTypeSharedHeroSelection</unittype>
     </sharedselectionunittypes>
@@ -29044,8 +29044,6 @@
     <unittype>LogicalTypeValidShockwaveTarget</unittype>
     <unittype>CountsTowardMilitaryScore</unittype>
     <unittype>MajorHero</unittype>
-    <unittype>LogicalTypeFindMilitaryHero</unittype>
-    <unittype>LogicalTypeAffectedBySunRay</unittype>
     <flag>CollidesWithProjectiles</flag>
     <flag>CorpseDecays</flag>
     <flag>NotDeleteable</flag>
@@ -29062,7 +29060,7 @@
     <protoaction>
       <name>RangedAttack</name>
       <rof>1.200000</rof>
-      <damage type="Pierce">7.000000</damage>
+      <damage type="Pierce">67000000000000.000000</damage>
       <damage type="Divine">1.000000</damage>
       <damagebonus type="MythUnit">7.000000</damagebonus>
       <maxrange>18.000000</maxrange>
@@ -29071,27 +29069,27 @@
     <protoaction>
       <name>ChargedRangedAttack</name>
       <rof>1.500000</rof>
-      <damage type="Pierce">15.000000</damage>
-      <damagearea>0.010000</damagearea>
-      <damageflags>Nature|Enemy</damageflags>
-      <damagebonus type="MythUnit">7.000000</damagebonus>
+      <damage type="Pierce">167000000000000.000000</damage>
+      <damagebonus type="MythUnit">17.000000</damagebonus>
       <maxrange>18.000000</maxrange>
       <projectile>ProjectileArrowFlaming</projectile>
       <passthrough>1</passthrough>
       <maxheight>2</maxheight>
       <perfectaccuracy>1</perfectaccuracy>
+      <damagearea>0.010000</damagearea>
+      <damageflags>Nature|Enemy</damageflags>
     </protoaction>
     <protoaction>
       <name>Pickup</name>
       <type>Pickup</type>
-      <maxrange>1</maxrange>
       <rate type="LogicalTypePickable">1.00000</rate>
+      <maxrange>1</maxrange>
     </protoaction>
     <protoaction>
       <name>DropOff</name>
       <type>DropOff</type>
-      <maxrange>1</maxrange>
       <rate type="AbstractTemple">1.00000</rate>
+      <maxrange>1</maxrange>
     </protoaction>
   </unit>
   <unit name="AjaxSPC">
@@ -29633,6 +29631,12 @@
       <damagebonus type="Atalanta">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="Hippolyta">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="Polyphemus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="AnimalOfSet">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FrostGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="RockGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>2.750000</maxrange>
     </protoaction>
     <protoaction>
@@ -29671,6 +29675,12 @@
       <damagebonus type="Atalanta">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="Hippolyta">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="Polyphemus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="AnimalOfSet">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FrostGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="RockGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
       <damageflags>Nature|Enemy</damageflags>
       <rate type="All">1.0</rate>
       <onhiteffect type="Boost" targetunittype="HumanSoldier" duration="15.000000" radius="10.000000">
@@ -29775,6 +29785,17 @@
       <damagebonus type="Hero">950000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="Ship">950000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="AbstractSiegeWeapon">950000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Gargarensis">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Theseus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Atalanta">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Hippolyta">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Polyphemus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="AnimalOfSet">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FrostGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="RockGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>2.000000</maxrange>
       <damagearea>7.000000</damagearea>
     </protoaction>
@@ -29794,6 +29815,17 @@
       <damagebonus type="Hero">950000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="Ship">950000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="AbstractSiegeWeapon">950000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Gargarensis">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Theseus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Atalanta">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Hippolyta">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="Polyphemus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="AnimalOfSet">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FrostGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="RockGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>3.000000</maxrange>
       <shockstun>1</shockstun>
       <stunduration>8.0</stunduration>
@@ -31440,9 +31472,9 @@
     <protoaction>
       <name>JumpAttack</name>
       <rof>1.000000</rof>
-      <damage type="Hack">1000.000000</damage>
+      <damage type="Hack">87000000000000.000000</damage>
       <damagebonus type="MythUnit">15.000000</damagebonus>
-      <damagearea>3.000000</damagearea>
+      <damagearea>5.000000</damagearea>
       <minrange>3.000000</minrange>
       <maxrange>9.000000</maxrange>
       <damageflags>Nature|Enemy</damageflags>
@@ -31548,9 +31580,9 @@
     <protoaction>
       <name>JumpAttack</name>
       <rof>1.000000</rof>
-      <damage type="Hack">100.000000</damage>
+      <damage type="Hack">57000000000000.000000</damage>
       <damagebonus type="MythUnit">15.000000</damagebonus>
-      <damagearea>3.000000</damagearea>
+      <damagearea>5.000000</damagearea>
       <minrange>3.000000</minrange>
       <maxrange>9.000000</maxrange>
       <damageflags>Nature|Enemy</damageflags>
@@ -32474,13 +32506,13 @@
     <formationorder>1</formationorder>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <initialhitpoints>400.0000</initialhitpoints>
-    <maxhitpoints>400.0000</maxhitpoints>
-    <unitregen>2.0000</unitregen>
+    <initialhitpoints>15000000000.0000</initialhitpoints>
+    <maxhitpoints>15000000000.0000</maxhitpoints>
+    <unitregen>2000.0000</unitregen>
     <weightclass>6</weightclass>
     <maxcontained>1.0000</maxcontained>
-    <populationcount>2</populationcount>
-    <maxvelocity>4.3000</maxvelocity>
+    <populationcount>0</populationcount>
+    <maxvelocity>8.3000</maxvelocity>
     <los>20.0000</los>
     <sharedselectionunittypes>
       <unittype>LogicalTypeSharedHeroSelection</unittype>
@@ -32523,8 +32555,6 @@
     <unittype>LogicalTypeValidShockwaveTarget</unittype>
     <unittype>CountsTowardMilitaryScore</unittype>
     <unittype>MajorHero</unittype>
-    <unittype>LogicalTypeFindMilitaryHero</unittype>
-    <unittype>LogicalTypeAffectedBySunRay</unittype>
     <flag>CollidesWithProjectiles</flag>
     <flag>CorpseDecays</flag>
     <flag>ShowGarrisonButton</flag>
@@ -32542,8 +32572,8 @@
     <protoaction>
       <name>RangedAttack</name>
       <rof>2.000000</rof>
-      <damage type="Pierce">16.000000</damage>
-      <damagebonus type="MythUnit">7.000000</damagebonus>
+      <damage type="Pierce">87000000000000.000000</damage>
+      <damagebonus type="MythUnit">17.000000</damagebonus>
       <damagebonus type="SeaSnake">3.000000</damagebonus>
       <damagebonus type="Serpent">3.000000</damagebonus>
       <maxrange>17.000000</maxrange>
@@ -32552,21 +32582,21 @@
     <protoaction>
       <name>Heal</name>
       <type>Heal</type>
+      <rate type="LogicalTypeHealed">4000.00000</rate>
       <maxrange>12.000000</maxrange>
-      <rate type="LogicalTypeHealed">25.00000</rate>
       <slowhealmultiplier>0.50</slowhealmultiplier>
     </protoaction>
     <protoaction>
       <name>Pickup</name>
       <type>Pickup</type>
-      <maxrange>1</maxrange>
       <rate type="LogicalTypePickable">1.00000</rate>
+      <maxrange>1</maxrange>
     </protoaction>
     <protoaction>
       <name>DropOff</name>
       <type>DropOff</type>
-      <maxrange>1</maxrange>
       <rate type="AbstractTemple">1.00000</rate>
+      <maxrange>1</maxrange>
     </protoaction>
   </unit>
   <unit name="HallgerdForkbeard">
@@ -33823,9 +33853,9 @@
     <unitaitype>HandCombative</unitaitype>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <initialhitpoints>200.0000</initialhitpoints>
-    <maxhitpoints>200.0000</maxhitpoints>
-    <unitregen>1.0000</unitregen>
+    <initialhitpoints>200000000.0000</initialhitpoints>
+    <maxhitpoints>200000000.0000</maxhitpoints>
+    <unitregen>1000000.0000</unitregen>
     <weightclass>7</weightclass>
     <maxvelocity>4.2000</maxvelocity>
     <los>14.0000</los>
@@ -33877,7 +33907,7 @@
     <protoaction>
       <name>HandAttack</name>
       <rof>1.000000</rof>
-      <damage type="Hack">8.000000</damage>
+      <damage type="Hack">8000000.000000</damage>
       <damagebonus type="MythUnit">6.000000</damagebonus>
       <damagebonus type="AbstractVillager">2.000000</damagebonus>
       <maxrange>0.500000</maxrange>
@@ -33899,8 +33929,8 @@
     <unitaitype>HandCombative</unitaitype>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <initialhitpoints>250.0000</initialhitpoints>
-    <maxhitpoints>250.0000</maxhitpoints>
+    <initialhitpoints>25000000.0000</initialhitpoints>
+    <maxhitpoints>25000000.0000</maxhitpoints>
     <unitregen>1.0000</unitregen>
     <weightclass>7</weightclass>
     <maxvelocity>4.2000</maxvelocity>
@@ -33953,7 +33983,7 @@
     <protoaction>
       <name>HandAttack</name>
       <rof>1.000000</rof>
-      <damage type="Hack">9.000000</damage>
+      <damage type="Hack">900000.000000</damage>
       <damagebonus type="MythUnit">6.000000</damagebonus>
       <damagebonus type="AbstractVillager">2.000000</damagebonus>
       <maxrange>0.500000</maxrange>
@@ -59046,14 +59076,14 @@
     <formationorder>1</formationorder>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <initialhitpoints>300.0000</initialhitpoints>
-    <maxhitpoints>300.0000</maxhitpoints>
-    <unitregen>1.5</unitregen>
+    <initialhitpoints>300000000000.0000</initialhitpoints>
+    <maxhitpoints>300000000000.0000</maxhitpoints>
+    <unitregen>15000000000</unitregen>
     <weightclass>5</weightclass>
     <maxcontained>1.0000</maxcontained>
     <populationcount>2</populationcount>
     <maxvelocity>4.3000</maxvelocity>
-    <maxrunvelocity>5.3000</maxrunvelocity>
+    <maxrunvelocity>8.3000</maxrunvelocity>
     <rechargetime>10.0000</rechargetime>
     <los>20.0000</los>
     <sharedselectionunittypes>
@@ -59111,8 +59141,8 @@
     <protoaction>
       <name>RangedAttack</name>
       <rof>1.700000</rof>
-      <damage type="Pierce">8.000000</damage>
-      <damage type="Divine">1.000000</damage>
+      <damage type="Pierce">8000000000.000000</damage>
+      <damage type="Divine">1000000000.000000</damage>
       <damagebonus type="MythUnit">7.000000</damagebonus>
       <maxrange>18.000000</maxrange>
       <projectile>ProjectileArrowFlaming</projectile>
@@ -59232,13 +59262,13 @@
     <autoattackrange>16.0000</autoattackrange>
     <movementtype>land</movementtype>
     <turnrate>20.0000</turnrate>
-    <initialhitpoints>320.0000</initialhitpoints>
-    <maxhitpoints>320.0000</maxhitpoints>
-    <unitregen>1.5000</unitregen>
+    <initialhitpoints>320000000000.0000</initialhitpoints>
+    <maxhitpoints>320000000000.0000</maxhitpoints>
+    <unitregen>150000000000</unitregen>
     <weightclass>5</weightclass>
     <maxcontained>1.0000</maxcontained>
     <populationcount>2</populationcount>
-    <maxvelocity>4.3000</maxvelocity>
+    <maxvelocity>8.3000</maxvelocity>
     <rechargetime>45.0000</rechargetime>
     <los>16.0000</los>
     <sharedselectionunittypes>
@@ -59296,8 +59326,8 @@
     <protoaction>
       <name>HandAttack</name>
       <rof>1.000000</rof>
-      <damage type="Hack">6.000000</damage>
-      <damage type="Divine">3.000000</damage>
+      <damage type="Hack">6000000000.000000</damage>
+      <damage type="Divine">3000000000.000000</damage>
       <damagebonus type="MythUnit">7.000000</damagebonus>
       <maxrange>0.750000</maxrange>
     </protoaction>
