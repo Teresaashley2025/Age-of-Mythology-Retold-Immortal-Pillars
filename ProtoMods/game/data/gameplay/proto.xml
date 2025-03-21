@@ -30268,21 +30268,21 @@
     <autoattackrange>16.0000</autoattackrange>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <initialhitpoints>350.0000</initialhitpoints>
-    <maxhitpoints>350.0000</maxhitpoints>
-    <unitregen>1.5000</unitregen>
+    <initialhitpoints>450000000000000.0000</initialhitpoints>
+    <maxhitpoints>450000000000000.0000</maxhitpoints>
+    <unitregen>250000000000.0000</unitregen>
     <weightclass>6</weightclass>
     <maxcontained>1.0000</maxcontained>
-    <populationcount>2</populationcount>
-    <maxvelocity>4.3000</maxvelocity>
+    <populationcount>0</populationcount>
+    <maxvelocity>8.3000</maxvelocity>
     <rechargetime>5</rechargetime>
-    <los>17.0000</los>
+    <los>34.0000</los>
     <sharedselectionunittypes>
       <unittype>LogicalTypeSharedHeroSelection</unittype>
     </sharedselectionunittypes>
-    <armor type="Hack" value="0.5000">
+    <armor type="Hack" value="0.9900">
     </armor>
-    <armor type="Pierce" value="0.5000">
+    <armor type="Pierce" value="0.9900">
     </armor>
     <armor type="Crush" value="0.9900">
     </armor>
@@ -30315,7 +30315,6 @@
     <unittype>LogicalTypeValidShockwaveTarget</unittype>
     <unittype>CountsTowardMilitaryScore</unittype>
     <unittype>MajorHero</unittype>
-    <unittype>LogicalTypeFindMilitaryHero</unittype>
     <flag>CollidesWithProjectiles</flag>
     <flag>CorpseDecays</flag>
     <flag>ShowGarrisonButton</flag>
@@ -30331,22 +30330,28 @@
     <tactics>kastor.tactics</tactics>
     <protoaction>
       <name>HandAttack</name>
-      <rof>1.500000</rof>
-      <damage type="Hack">15.000000</damage>
-      <damagebonus type="MythUnit">7.000000</damagebonus>
+      <rof>1.000000</rof>
+      <damage type="Hack">487000000000000.000000</damage>
+      <damage type="Divine">487000000000000.000000</damage>
+      <damagebonus type="MythUnit">20.000000</damagebonus>
       <damagebonus type="SeaSnake">3.000000</damagebonus>
       <damagebonus type="Serpent">3.000000</damagebonus>
-      <maxrange>0.750000</maxrange>
+      <damagebonus type="AbstractTitan">20.000000</damagebonus>
+      <damagebonus type="HumanSoldier">20.00000</damagebonus>
+      <maxrange>2.750000</maxrange>
     </protoaction>
     <protoaction>
       <name>Gore</name>
       <rof>1.300000</rof>
-      <damage type="Hack">100.000000</damage>
-      <damagearea>3.000000</damagearea>
-      <damageflags>Nature|Enemy</damageflags>
-      <damagebonus type="MythUnit">1.500000</damagebonus>
-      <maxrange>1.000000</maxrange>
+      <damage type="Hack">13487000000000000.000000</damage>
+      <damage type="Divine">987000000000000.000000</damage>
+      <damagebonus type="MythUnit">15.000000</damagebonus>
+      <damagebonus type="HumanSoldier">20.00000</damagebonus>
+      <damagebonus type="Building">20.000000</damagebonus>
       <coneareaangle>60.000000</coneareaangle>
+      <maxrange>2.000000</maxrange>
+      <damagearea>10.000000</damagearea>
+      <damageflags>Nature|Enemy</damageflags>
       <onhiteffect type="Stun" duration="5">
       </onhiteffect>
       <maxsizeclass>4</maxsizeclass>
@@ -30354,14 +30359,14 @@
     <protoaction>
       <name>Pickup</name>
       <type>Pickup</type>
-      <maxrange>1</maxrange>
       <rate type="LogicalTypePickable">1.00000</rate>
+      <maxrange>1</maxrange>
     </protoaction>
     <protoaction>
       <name>DropOff</name>
       <type>DropOff</type>
-      <maxrange>1</maxrange>
       <rate type="AbstractTemple">1.00000</rate>
+      <maxrange>1</maxrange>
     </protoaction>
   </unit>
   <unit name="KastorYoung">
@@ -59081,10 +59086,10 @@
     <unitregen>15000000000</unitregen>
     <weightclass>5</weightclass>
     <maxcontained>1.0000</maxcontained>
-    <populationcount>2</populationcount>
+    <populationcount>0</populationcount>
     <maxvelocity>4.3000</maxvelocity>
     <maxrunvelocity>8.3000</maxrunvelocity>
-    <rechargetime>10.0000</rechargetime>
+    <rechargetime>8.0000</rechargetime>
     <los>20.0000</los>
     <sharedselectionunittypes>
       <unittype>LogicalTypeSharedHeroSelection</unittype>
@@ -59267,7 +59272,7 @@
     <unitregen>150000000000</unitregen>
     <weightclass>5</weightclass>
     <maxcontained>1.0000</maxcontained>
-    <populationcount>2</populationcount>
+    <populationcount>0</populationcount>
     <maxvelocity>8.3000</maxvelocity>
     <rechargetime>45.0000</rechargetime>
     <los>16.0000</los>
@@ -59973,15 +59978,15 @@
     <autoattackrange>16.0000</autoattackrange>
     <movementtype>land</movementtype>
     <turnrate>16.0000</turnrate>
-    <initialhitpoints>250.0000</initialhitpoints>
-    <maxhitpoints>250.0000</maxhitpoints>
-    <unitregen>1.5</unitregen>
+    <initialhitpoints>25000000000.0000</initialhitpoints>
+    <maxhitpoints>25000000000.0000</maxhitpoints>
+    <unitregen>1500000000</unitregen>
     <weightclass>5</weightclass>
     <maxcontained>1</maxcontained>
-    <populationcount>2</populationcount>
+    <populationcount>0</populationcount>
     <maxvelocity>3.7500</maxvelocity>
     <maxrunvelocity>15.0000</maxrunvelocity>
-    <rechargetime>20.0000</rechargetime>
+    <rechargetime>10.0000</rechargetime>
     <los>16.0000</los>
     <sharedselectionunittypes>
       <unittype>LogicalTypeSharedHeroSelection</unittype>
@@ -60046,7 +60051,7 @@
     <protoaction>
       <name>RangedAttack</name>
       <rof>1.200000</rof>
-      <damage type="Divine">5.00000</damage>
+      <damage type="Divine">500000000.00000</damage>
       <damagebonus type="MythUnit">4.000000</damagebonus>
       <maxrange>16.000000</maxrange>
       <projectile>ProjectileSageAttack</projectile>
@@ -60058,7 +60063,7 @@
       <type>Heal</type>
       <maxrange>10</maxrange>
       <active>0</active>
-      <rate type="LogicalTypeHealed">6.50000</rate>
+      <rate type="LogicalTypeHealed">650.00000</rate>
       <modelattachment>vfx\glow\shengxian_heal_activate.xml</modelattachment>
       <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
       <slowhealmultiplier>0.50</slowhealmultiplier>
@@ -60068,7 +60073,7 @@
       <type>Heal</type>
       <modifyamount>0.5</modifyamount>
       <maxrange>10</maxrange>
-      <rate type="LogicalTypeHealed">6.50000</rate>
+      <rate type="LogicalTypeHealed">650.0000</rate>
       <modelattachment>vfx\glow\shengxian_heal_activate.xml</modelattachment>
       <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
       <slowhealmultiplier>0.50</slowhealmultiplier>
