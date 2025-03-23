@@ -29642,6 +29642,8 @@
       <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanYmir">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanBird">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>2.750000</maxrange>
     </protoaction>
@@ -29692,6 +29694,8 @@
       <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanYmir">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanBird">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <damageflags>Nature|Enemy</damageflags>
       <rate type="All">1.0</rate>
@@ -29813,6 +29817,8 @@
       <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanYmir">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanBird">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>2.000000</maxrange>
       <damagearea>7.000000</damagearea>
@@ -29849,6 +29855,8 @@
       <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanYmir">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanBird">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>3.000000</maxrange>
       <shockstun>1</shockstun>
