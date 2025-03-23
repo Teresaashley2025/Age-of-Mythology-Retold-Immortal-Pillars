@@ -29546,8 +29546,8 @@
     <autoattackrange>18.0000</autoattackrange>
     <movementtype>land</movementtype>
     <turnrate>20.0000</turnrate>
-    <initialhitpoints>999000000000000000000000000000000000.0000.0000</initialhitpoints>
-    <maxhitpoints>999000000000000000000000000000000000.0000.0000</maxhitpoints>
+    <initialhitpoints>999900000000000000000000000000000000.0000.0000</initialhitpoints>
+    <maxhitpoints>999900000000000000000000000000000000.0000.0000</maxhitpoints>
     <unitregen>50000000000000000000000000000000000.0000</unitregen>
     <weightclass>6</weightclass>
     <maxcontained>1.0000</maxcontained>
@@ -29637,6 +29637,12 @@
       <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="HuangZhaowu">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanCerberus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>2.750000</maxrange>
     </protoaction>
     <protoaction>
@@ -29681,6 +29687,12 @@
       <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="HuangZhaowu">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanCerberus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <damageflags>Nature|Enemy</damageflags>
       <rate type="All">1.0</rate>
       <onhiteffect type="Boost" targetunittype="HumanSoldier" duration="15.000000" radius="10.000000">
@@ -29712,8 +29724,8 @@
     <autoattackrange>16.0000</autoattackrange>
     <movementtype>land</movementtype>
     <turnrate>20.0000</turnrate>
-    <initialhitpoints>950000000000000000000000000000000000.0000</initialhitpoints>
-    <maxhitpoints>950000000000000000000000000000000000.0000</maxhitpoints>
+    <initialhitpoints>999900000000000000000000000000000000.0000</initialhitpoints>
+    <maxhitpoints>999900000000000000000000000000000000.0000</maxhitpoints>
     <unitregen>50000000000000000000000000000000000.0000</unitregen>
     <weightclass>6</weightclass>
     <maxcontained>1.0000</maxcontained>
@@ -29796,6 +29808,12 @@
       <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="HuangZhaowu">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanCerberus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>2.000000</maxrange>
       <damagearea>7.000000</damagearea>
     </protoaction>
@@ -29826,6 +29844,12 @@
       <damagebonus type="MountainGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireGiant">990000000000000000000000000000000000.000000</damagebonus>
       <damagebonus type="FireKing">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="HuangZhaowu">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanCerberus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanPrometheus">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanKronos">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="TitanAtlantean">990000000000000000000000000000000000.000000</damagebonus>
+      <damagebonus type="ChiYouBig">990000000000000000000000000000000000.000000</damagebonus>
       <maxrange>3.000000</maxrange>
       <shockstun>1</shockstun>
       <stunduration>8.0</stunduration>
